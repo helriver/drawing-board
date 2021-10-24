@@ -21,10 +21,6 @@ void setup(){
   fill(0,0,210);
   rect(40,446,150,40);
   
-  textSize(140);
-  fill(0);
-  //text("DRAWING BOARD",-10,600);
-  
   textSize(20.5);
   fill(100);
   text("0-----------------255",40,290);
@@ -34,13 +30,9 @@ void setup(){
   stroke(0);
   strokeWeight(0.5);
   line(0,50,1000,50);
-  strokeWeight(1.5);
-  //line(170,0,170,600);
   
   textSize(30);
   fill(80);
-  //text("Please enter the",3,80);
-  //text("color here.",3,110);
   text("R:",3,325);
   text("G:",3,400);
   text("B:",3,475);
@@ -121,5 +113,3 @@ void keyReleased() {
     rc = 0; gc = 0; bc = 0;
   }
 }
-
-  
